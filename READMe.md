@@ -1,6 +1,6 @@
 # monads-maybe
 
-A simple wrapper of javascript statements branching that provide safe error handling and test friendly
+A simple wrapper of javascript statement branching that provide safe error handling and test friendly
 
 ## Usage
 
@@ -22,13 +22,13 @@ log(isOne) // has one
 
 const hasFour = arr.indexOf('four')
 
-let isFour = mayBe.not(~hasFour, log('has no four'))
+let isFour = mayBe.not(~hasFour, 'has no four')
 
 log(isFour) // has no four
 
-isFour = mayBe.is(~hasFour, 'has four') //statements get executed will return undefined
+isFour = mayBe.is(~hasFour, isFour = 'hello') //statement not get executed
 
-log(isFour) // undefined
+log(isFour) // 0
 
 isFour = mayBe.so(~hasFour, true, false)
 

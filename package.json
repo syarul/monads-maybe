@@ -1,7 +1,7 @@
 {
   "name": "monads-maybe",
-  "version": "1.0.0",
-  "description": "A simple wrapper of javascript statements branching that provide safe error handling and test friendly",
+  "version": "1.0.1",
+  "description": "A simple wrapper of javascript statement branching that provide safe error handling and test friendly",
   "main": "mayBe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

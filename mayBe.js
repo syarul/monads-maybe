@@ -11,7 +11,7 @@ class mayBe {
   }
 
   so(...args){
-  	return args[0] && args[1] || !args[0] && args[2]
+    return args[0] && args[1] || !args[0] && args[2]
   }
 
 }

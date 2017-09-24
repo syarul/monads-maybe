@@ -12,13 +12,13 @@ log(isOne) // has one
 
 const hasFour = arr.indexOf('four')
 
-let isFour = mayBe.not(~hasFour, log('has no four'))
+let isFour = mayBe.not(~hasFour, 'has no four')
 
 log(isFour) // has no four
 
-isFour = mayBe.is(~hasFour, 'has four') //statements get executed will return undefined
+isFour = mayBe.is(~hasFour, isFour = 'hello') //statements not get executed
 
-log(isFour) // undefined
+log(isFour) // 0
 
 isFour = mayBe.so(~hasFour, true, false)
 
