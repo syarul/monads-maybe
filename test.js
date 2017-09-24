@@ -6,9 +6,13 @@ const log = console.log.bind(console)
 
 const hasOne = arr.indexOf('one')
 
-const isOne = mayBe.is(~hasOne, 'has one')
+let isOne = mayBe.is(~hasOne, 'has one')
 
 log(isOne) // has one
+
+isOne = mayBe.not(~hasOne, 'has one')
+
+log(isOne) // false
 
 const hasFour = arr.indexOf('four')
 
@@ -16,9 +20,9 @@ let isFour = mayBe.not(~hasFour, 'has no four')
 
 log(isFour) // has no four
 
-isFour = mayBe.is(~hasFour, isFour = 'hello') //statements not get executed
+isFour = mayBe.is(~hasFour, isFour = 'hello', isFour = 'world')
 
-log(isFour) // 0
+log(isFour) // world
 
 isFour = mayBe.so(~hasFour, true, false)
 

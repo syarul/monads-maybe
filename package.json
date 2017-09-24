@@ -1,6 +1,6 @@
 {
   "name": "monads-maybe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple wrapper of javascript statement branching that provide safe error handling and test friendly",
   "main": "mayBe.js",
   "scripts": {
