@@ -1,0 +1,27 @@
+{
+  "name": "monads-maybe",
+  "version": "1.0.0",
+  "description": "A simple wrapper of javascript statements branching that provide safe error handling and test friendly",
+  "main": "mayBe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/monads-maybe.git"
+  },
+  "keywords": [
+    "monads",
+    "maybe",
+    "haskell",
+    "type",
+    "statement",
+    "branching"
+  ],
+  "author": "Shahrul Nizam Selamat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syarul/monads-maybe/issues"
+  },
+  "homepage": "https://github.com/syarul/monads-maybe#readme"
+}
